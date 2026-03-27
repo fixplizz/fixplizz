@@ -1,121 +1,101 @@
-# Pavel Golovnev | FixPlizz
+# Pavel Golovnev
 
 <div align="center">
 
-## DevOps / SecOps / AI Infrastructure Engineer
+### DevOps | Infrastructure | Security | AI Automation
 
-**Проектирую и автоматизирую инфраструктуру без ручных костылей:**  
-`IaC` • `CI/CD` • `Security-by-Design` • `Self-hosted platforms` • `AI tooling`
+Собираю инфраструктуру, автоматизирую рутину и привожу сервисы в состояние,  
+когда они работают предсказуемо, безопасно и без ручной магии.
 
-[![Telegram](https://img.shields.io/badge/Telegram-FixPlizz-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/FixPlizz)
+[![Telegram](https://img.shields.io/badge/Telegram-@FixPlizz-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/FixPlizz)
 [![Email](https://img.shields.io/badge/Email-exsaimple%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:exsaimple@gmail.com)
-[![Open to Work](https://img.shields.io/badge/Open%20to-Work-0A0A0A?style=for-the-badge&logo=github&logoColor=white)](mailto:exsaimple@gmail.com)
 
 </div>
 
 ---
 
-## Кто я
+## About me
 
-Я инженер на стыке **системного администрирования, DevOps, информационной безопасности и AI-инфраструктуры**.  
-Сфокусирован на практичных решениях для реальной эксплуатации: закрытые контуры, импортозамещение, self-hosted сервисы, автоматизация рутинных операций и безопасный деплой.
+Я системный инженер с сильным уклоном в **DevOps, IaC, сетевую инфраструктуру, ИБ и автоматизацию**.
 
-Мой подход простой:
+Люблю собирать понятные и практичные решения:
 
-- если можно описать в коде, это не должно настраиваться руками;
-- если сервис критичен, он должен быть воспроизводим, мониторим и безопасен;
-- если процесс повторяется, его нужно автоматизировать;
-- если архитектура превращается в хрупкий зоопарк, значит её пора упрощать.
+- инфраструктура как код, а не руками на сервере;
+- CI/CD без хрупких костылей;
+- self-hosted и независимые решения там, где это реально важно;
+- автоматизация всего, что повторяется слишком часто;
+- аккуратная интеграция AI в рабочие процессы.
 
 ---
 
-## Чем я полезен команде
+## Focus
 
-### Infrastructure as Code
+```text
+Terraform / Ansible / CI/CD / Docker / Linux / Networking / Security / AI workflows
+```
+
+Чаще всего работаю на стыке:
+
+- инфраструктуры и автоматизации;
+- эксплуатации и безопасности;
+- администрирования и разработки;
+- классического DevOps и AI-инструментов.
+
+---
+
+## What I do
+
+### Infrastructure & DevOps
 - Terraform / Terragrunt
 - Ansible
 - Cloud-init
-- reproducible environments и стандартизация конфигураций
-
-### CI/CD & Platform Engineering
 - GitLab CI / GitHub Actions / Jenkins
-- автоматизация сборки, тестирования и деплоя
-- контейнеризация и безопасная доставка приложений
-- технические пайплайны без ручного "нажми сюда"
+- Docker и воспроизводимые окружения
 
-### Security-by-Design
-- управление секретами и безопасные точки интеграции
-- логирование, аудит, базовая hardening-стратегия
-- сетевой контроль доступа, проксирование, сегментация
-- встраивание ИБ в инфраструктуру, а не "после релиза"
+### Security & Networking
+- hardening и базовая security hygiene
+- проксирование, публикация сервисов, VPN
+- логирование, аудит, контроль точек доступа
+- инфраструктура для нестабильных и ограниченных сетей
 
-### Networking & Access
-- VPN-туннели
-- reverse proxy / forward proxy
-- инфраструктура доступа для нестабильных и ограниченных сетей
-- практическая работа с сетевой связностью, маршрутизацией и публикацией сервисов
+### Automation & AI
+- скрипты и внутренние automation workflows
+- AI-assisted процессы для эксплуатации и рутины
+- внедрение агентов и утилит для ускорения инженерной работы
 
-### AI & Automation
-- внедрение AI-инструментов в эксплуатацию и инженерные процессы
-- агенты и автоматизация повседневных задач администратора
-- AI-assisted workflows для ускорения диагностики, поддержки и документации
-
-### Web / Backend Ops
-- Node.js-приложения
-- базы данных, проксирование, dockerized deploy
-- эксплуатация веб-сервисов с упором на предсказуемость и безопасность
+### Web & Deploy
+- Node.js-сервисы
+- reverse proxy / Nginx
+- безопасный и понятный деплой веб-приложений
 
 ---
 
-## Технологический стек
+## Stack
 
-| Направление | Инструменты |
-| --- | --- |
-| IaC | `Terraform`, `Terragrunt`, `Ansible`, `Cloud-init` |
-| CI/CD | `GitLab CI`, `GitHub Actions`, `Jenkins`, `Shell` |
-| Containers | `Docker`, `Compose` |
-| Web & Backend | `Node.js`, `Reverse Proxy`, `Nginx` |
-| Security | `Secrets management`, `audit/logging`, `hardening`, `network security` |
-| Networking | `VPN`, `proxy`, `routing`, `service publishing` |
-| Automation | `Shell`, `Python`, `Node.js`, AI-driven workflows |
-
----
-
-## Как я работаю
-
-```text
-Idea -> Architecture -> IaC -> CI/CD -> Secure Deploy -> Monitoring -> Improvement
-```
-
-Предпочитаю строить решения, которые:
-
-- можно развернуть повторно без магии и ручной настройки;
-- выдерживают рост нагрузки и команды;
-- не зависят критически от зарубежного SaaS;
-- удобно документировать, передавать и сопровождать.
+![Terraform](https://img.shields.io/badge/Terraform-111111?style=flat-square&logo=terraform&logoColor=844FBA)
+![Ansible](https://img.shields.io/badge/Ansible-111111?style=flat-square&logo=ansible&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111111?style=flat-square&logo=githubactions&logoColor=2088FF)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-111111?style=flat-square&logo=gitlab&logoColor=FC6D26)
+![Jenkins](https://img.shields.io/badge/Jenkins-111111?style=flat-square&logo=jenkins&logoColor=D24939)
+![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=FCC624)
+![Nginx](https://img.shields.io/badge/Nginx-111111?style=flat-square&logo=nginx&logoColor=009639)
+![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=node.js&logoColor=5FA04E)
 
 ---
 
-## Сейчас особенно интересны задачи
+## Open for
 
-- автоматизация инфраструктуры и внутренних платформ;
-- DevOps/SRE-практики для команд разработки;
-- безопасный деплой web/backend-сервисов;
-- self-hosted стек для компаний и закрытых контуров;
-- AI-инструменты для эксплуатации, администрирования и инженерной эффективности.
+- интересные инфраструктурные задачи;
+- DevOps и platform engineering;
+- автоматизацию админских и инженерных процессов;
+- проекты, где важны надежность, безопасность и здравый смысл.
 
 ---
 
-## Контакты
+## Contact
 
 - Telegram: [@FixPlizz](https://t.me/FixPlizz)
 - Email: [exsaimple@gmail.com](mailto:exsaimple@gmail.com)
 
-Если вам нужен инженер, который умеет **не только поднять сервис, но и сделать его воспроизводимым, безопасным и удобным в сопровождении**, пишите.
-
----
-
-## Принцип
-
-> Хорошая инфраструктура не требует героизма в проде.  
-> Она должна быть понятной, автоматизированной и устойчивой.
+Если вам нужен человек, который умеет не просто "поднять", а **нормально собрать, автоматизировать и привести в порядок**, можно смело писать.
