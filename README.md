@@ -1,4 +1,4 @@
-# Pavel Golovnev
+# fixplizz
 
 <div align="center">
 
@@ -95,6 +95,7 @@ Terraform / Ansible / CI/CD / Docker / Linux / Networking / Security / AI workfl
 
 ## Contact
 
+- Name: Paul Go
 - Telegram: [@FixPlizz](https://t.me/FixPlizz)
 - Email: [exsaimple@gmail.com](mailto:exsaimple@gmail.com)
 
